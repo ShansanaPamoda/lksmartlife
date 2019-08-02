@@ -12,6 +12,7 @@
 </html>
 
 <?php
+$ip = ;
 sleep(5);
-header("Location: http://www.redirect.to.url.com/");
+header("Location: ".$ip."/mqtt.js/status?switch1=on");
 ?>
