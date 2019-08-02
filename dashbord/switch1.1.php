@@ -10,3 +10,8 @@
 
 </body>
 </html>
+
+<?php
+sleep(5);
+header("Location: http://www.redirect.to.url.com/");
+?>
