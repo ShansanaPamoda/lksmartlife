@@ -1,0 +1,29 @@
+const express = require('express');
+
+const app = express();
+const port = 3000;
+// const port = process.env.PORT || "8000";
+
+app.listen(port, () => {
+    console.log(`Server is running on port:${port}`);
+});
+
+app.get('/', (req, res) => {
+    res.status(200).send('Hello world');
+});
+
+app.get('/getTest', (req, res) => {
+    res.status(200).send('Hello world! I\'m get');
+});
+
+app.post('/postTest', (req, res) => {
+    res.status(200).send('Hello world! I\'m post');
+});
+
+app.patch('/patchTest', (req, res) => {
+    res.status(200).send('Hello world! I\'m patch');
+});
+
+app.delete('/deleteTest', (req, res) => {
+    res.status(200).send('Hello world! I\'m delete');
+});

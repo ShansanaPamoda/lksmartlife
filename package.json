@@ -1,0 +1,32 @@
+{
+  "name": "node-server-express-test",
+  "version": "1.0.0",
+  "description": "For Test",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/reshanpubudubit/nodeexpress.git"
+  },
+  "author": "Reshan Pubudu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/reshanpubudubit/nodeexpress/issues"
+  },
+  "homepage": "https://gitlab.com/reshanpubudubit/nodeexpress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-query": "^2.2.2",
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
